@@ -22,8 +22,8 @@ title: Clojure Crazy
 email: dave@droberts.com
 description: >- # this means to ignore newlines until "baseurl:"
   I've got a fever and the only prescription is more Clojure!
-baseurl: "/clojurecrazy" # the subpath of your site, e.g. /blog
-url: "https://dgr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/clojurecrazy" # the subpath of your site, e.g. /blog
+#url: "https://dgr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Chicago
 twitter_username: sandhillstrat
 github_username:  dgr
