@@ -85,7 +85,7 @@ collection, the larger the result.
 
 Sometimes, the first argument to the reducing function is called the
 _accumulator_ and is often named `a` or `acc`, but I tend to think of
-it more generally, as the _current state_ of the reduction, and name
+it more generally as the _current state_ of the reduction, and name
 it `state` in my examples. Once you make that shift, it'll open up
 your mind to see other places where you can use `reduce`.
 
