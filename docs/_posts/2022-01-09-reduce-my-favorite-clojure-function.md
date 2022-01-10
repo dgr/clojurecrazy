@@ -126,7 +126,7 @@ state according to that sequence. That state can be something small
 that you just carry along from one call of the reducing function to
 the next (e.g., `+`, `min`, `max`, or the automaton) or a large data
 structure that you're building up (e.g., our vector of
-prefixes). Semantically, `reduce` keep track of that state value and
+prefixes). Semantically, `reduce` keeps track of that state value and
 _folds_ in each of the items in the collection.
 
 The second key point is that there are many functions that can serve
@@ -148,9 +148,10 @@ user> (reduce (fn [state input] input) [:a 1 "foo"])
 Since `"foo"` is the last item in the collection, it's the last thing
 returned from the reducing function and the result of the `reduce`.
 
-And so that's why `reduce` is my favorite Clojure function. It's so
-useful for so many different tasks. It's a general workhorse for data
-processing and can be applied to so many different problems.
+So, that's why `reduce` is my favorite Clojure function. It's just
+tremendously useful for so many different tasks. It's a general
+workhorse for data processing and can be applied to many different
+problems in many different situations.
 
 Next time, we'll see some of those other problems. In particular,
 we'll try writing some other standard Clojure functions using
