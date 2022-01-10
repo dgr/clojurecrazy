@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using `reduce` to Implement Other Clojure Functions"
-date: 2022-01-10 17:00:00 -0600
+date: 2022-01-10 15:21:00 -0600
 ---
 In
 [yesterday's](https://dgr.github.io/clojurecrazy/2022/01/09/reduce-my-favorite-clojure-function.html)
