@@ -34,7 +34,7 @@ you unpack that a bit?" Of course.
 Let's start by remembering why transducers exist in the first place.
 
 First, Clojure's original collection processing functions were
-lazy. Calling `map` or `filter` on a collection didn't actually do
+lazy. Calling `map` or `filter` on a collection doesn't actually do
 all the processing at the time of the initial call. Rather, these
 functions return a lazy-seq that delays processing until you actually
 consume the results. This is fine if you're always dealing with
