@@ -4,7 +4,7 @@ title: "Using `reduce` to Implement Other Clojure Functions"
 date: 2022-01-10 15:21:00 -0600
 ---
 In
-[yesterday's](https://dgr.github.io/clojurecrazy/2022/01/09/reduce-my-favorite-clojure-function.html)
+[yesterday's](/clojurecrazy/2022/01/09/reduce-my-favorite-clojure-function.html)
 post, we took a look at `reduce`, one of the true workhorses of
 functional programming. In today's post, we'll see how we can use
 `reduce` to implement some other functions in the Clojure standard

@@ -4,7 +4,7 @@ title: "Transducers: Middleware for Reducing Functions (Part 1)"
 date: 2022-01-16 9:00:00 -0600
 ---
 In our [last
-episode](https://dgr.github.io/clojurecrazy/2022/01/10/using-reduce-to-implement-other-clojure-functions.html),
+episode](/clojurecrazy/2022/01/10/using-reduce-to-implement-other-clojure-functions.html),
 we learned how we can re-implement many other Clojure collection
 processing functions such as `mapv` and `filterv` in terms of
 `reduce`. Were you able to implement some of the other functions we
