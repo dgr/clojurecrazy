@@ -104,8 +104,6 @@ a reducing value. But these functions won't work without an initial
 value if you try to use them with `transduce`. You can use `first` and
 `rest` to pick off the first value if need to.
 
->>>>> or use `completing`
-
 ```clojure
 user> (max)
 Execution error (ArityException) at user/eval8583 (form-init7109873409143739450.clj:535).
@@ -279,7 +277,10 @@ the new state that we just returned from the arity-2 version. This
 signals the downstream reducing function that it should perform any
 cleanup in the case that it's stateful as well. If there are no items
 in the partition, then we simply pass along the `state` to the
-downstream arity-1 version.
+downstream arity-1 version. If you have a reducing function that
+doesn't support arity-1, you can easily create a new version that does
+by passing it to `completing`. The created arity-1 function will
+simply be `identity`.
 
 Now, we also need a new version of our transduction function,
 `cc-xd-3`.
