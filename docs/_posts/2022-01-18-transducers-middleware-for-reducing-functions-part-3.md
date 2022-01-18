@@ -359,11 +359,7 @@ user> (transduce (cc-partition-all-3 3) conj [] (range 10))
 [[0 1 2] [3 4 5] [6 7 8] [9]]
 ```
 
-Note that if you have a stateless reducing function with only arity-2,
-something you might have been using with `reduce`, previously, for
-instance, you can create a new reducing function that adds the arity-1
-for use with transduce by applying `completing` to the arity-2
-function.
+Boom. Nailed it. We have a legitimate transducer.
 
 Okay, that's all for now. Next time, we'll take a look at how to
 abort a reduction or transduction right in the middle.
