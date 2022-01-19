@@ -3,6 +3,11 @@ layout: post
 title: "Transducers: Middleware for Reducing Functions (Part 4)"
 date: 2022-01-19 8:22:00 -0600
 ---
+This is a four-part series. You can find the parts here:
+* [Part 1](2022-01-19-transducers-middleware-for-reducing-functions-part-1.md)
+* [Part 2](2022-01-19-transducers-middleware-for-reducing-functions-part-2.md)
+* [Part 3](2022-01-19-transducers-middleware-for-reducing-functions-part-3.md)
+* [Part 4](2022-01-19-transducers-middleware-for-reducing-functions-part-4.md)
 
 Wow! We did it! In our [last episode](/clojurecrazy/2022/01/18/transducers-middleware-for-reducing-functions-part-3.html), we built ourselves a real
 transducer that actually works with Clojure's `transduce` function. It
