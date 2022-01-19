@@ -4,10 +4,10 @@ title: "Transducers: Middleware for Reducing Functions (Part 3)"
 date: 2022-01-18 8:02:00 -0600
 ---
 This is a four-part series. You can find the parts here:
-* [Part 1](2022-01-19-transducers-middleware-for-reducing-functions-part-1.md)
-* [Part 2](2022-01-19-transducers-middleware-for-reducing-functions-part-2.md)
-* [Part 3](2022-01-19-transducers-middleware-for-reducing-functions-part-3.md)
-* [Part 4](2022-01-19-transducers-middleware-for-reducing-functions-part-4.md)
+* [Part 1](2022-01-19-transducers-middleware-for-reducing-functions-part-1.html)
+* [Part 2](2022-01-19-transducers-middleware-for-reducing-functions-part-2.html)
+* [Part 3](2022-01-19-transducers-middleware-for-reducing-functions-part-3.html)
+* [Part 4](2022-01-19-transducers-middleware-for-reducing-functions-part-4.html)
 
 Welcome back. In our [last episode](/clojurecrazy/2022/01/17/transducers-middleware-for-reducing-functions-part-2.html), we got within spitting distance of
 "real" transducers. We saw how transducers are middleware wrapped
