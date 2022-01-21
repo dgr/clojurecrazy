@@ -198,7 +198,7 @@ nil
 
 Now, the timings are both about the same, 280 nanoseconds or so. They
 both process the first five elements of the collection and then return
-`(reduced state`, immediately stopping the reduction.
+`(reduced state)`, immediately stopping the reduction.
 
 With that, our multi-part series diving into transducers comes to a
 close. Hopefully, this has demystified the subject and you understand
