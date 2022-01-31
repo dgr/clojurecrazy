@@ -2,6 +2,7 @@
 layout: post
 title: "Transducers: Middleware for Reducing Functions (Part 4)"
 date: 2022-01-19 8:22:00 -0600
+tags: [clojure.core, transducers, reduce]
 ---
 This is a four-part series. You can find the parts here:
 * [Part 1](/clojurecrazy/2022/01/16/transducers-middleware-for-reducing-functions-part-1.html)
