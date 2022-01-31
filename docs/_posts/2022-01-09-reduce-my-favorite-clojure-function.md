@@ -2,6 +2,7 @@
 layout: post
 title: "Reduce: My Favorite Clojure Function"
 date: 2022-01-09 19:30:00 -0600
+tags: [clojure.core, reduce]
 ---
 I have to admit it, I have a favorite Clojure function. No, it's not
 [`map`](https://clojuredocs.org/clojure.core/map), although that would
