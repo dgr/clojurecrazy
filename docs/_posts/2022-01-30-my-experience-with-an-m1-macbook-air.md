@@ -29,11 +29,12 @@ gets tight sometimes with my corporate app workload, the M1 and SSD
 are so fast at swapping that you rarely notice. Still, I wish I had 16
 GB on that machine.
 
-In October, my daughter spilled a glass full of juice my wife's old
-x86-based MacBook Air. After a trip to the Apple store, it was
-pronounced dead and so we buried it and bought her a new, base-model
-M1 Air. It worked out great for her. Again, no compatibility issue or
-complaints about something not working. Another positive data point.
+In October, my daughter spilled a glass full of juice on the keyboard
+of my wife's old x86-based MacBook Air. After a trip to the Apple
+store, it was pronounced dead and so we buried it and bought her a
+new, base-model M1 Air. It worked out great for her. Again, no
+compatibility issue or complaints about something not working. Another
+positive data point.
 
 So, in late December, I decided to take the plunge and upgrade my own
 machine to one of the new Apple Silicon models. The first quesstion
