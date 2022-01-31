@@ -84,13 +84,13 @@ one a Clojure program I use for personal finance and another connected
 to Emacs with CIDER. With all that going on, my memory usage is only
 12 GB and I've only used 57 MB of swap. Everything flies.
 
-If you want to develop Clojure on it, you can do so with ease. That's
-really a testament to using a high level programming language
-(Clojure) running on an abstract virtual machine (JVM) that totally
-insulates you from the hardware details. I also haven't gone as far as
-trying Docker or anything virtualized (e.g., VMware), so you might
-experience some level of pain there. That's not something I typically
-need to do.
+If you want to use it to develop in Clojure, you can do so with
+ease. That's really a testament to using a high level programming
+language (Clojure) running on an abstract virtual machine (JVM) that
+totally insulates you from the hardware details. I also haven't gone
+as far as trying Docker or anything virtualized (e.g., VMware), so you
+might experience some level of pain there. That's not something I
+typically need to do.
 
 Are there downsides? Yes, two, but they are very minor in my
 opinion. First, the screen size is only 13 inches. I would really like
