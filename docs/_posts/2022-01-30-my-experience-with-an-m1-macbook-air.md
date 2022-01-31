@@ -38,23 +38,24 @@ complaints about something not working. Another positive data point.
 So, in late December, I decided to take the plunge and upgrade my own
 machine to one of the new Apple Silicon models. The first quesstion
 was, which model should I get? I watched all the YouTube reviews of
-the new M1 Pro and M1 Max models. Which they both seemed fast, it felt
-like they were targeting professions working with video more than
-anything else. Further, reports were that the laptops were heavy. I
-loved the 16-inch screen, but I wanted something light, with all-day
-battery life, if possible. They were also a lot more expensive, with
-the models I would have chosen running nearly $2500.
+the new M1 Pro and M1 Max models. While they both seemed fast, it felt
+like they were targeting media professionals working with video more
+than anything else. Further, reports were that the laptops were
+heavy. I loved the 16-inch screen, but I wanted something light, with
+all-day battery life, if possible. They were also a lot more
+expensive, with the models I would have chosen running nearly $2500.
 
 More and more, I found myself drawn to the year-old, M1 Air. It's
 small, light, and relatively inexpensive. I figured if there was
-something I found out about it after the fact that I really hated, I
-could always dispose of it on eBay and I wouldn't be out that much
-money in any case. By the time I made the decision, Apple was already
-starting to offer the M1 Air as part of their refurb program. So, I
-saved myself a few dollars and bought an M1 Air with some upgraded
-specs: 16 GB of RAM and 1 TB of SSD. That's basically 2x the RAM and
-4x the storage of the base model. And the price was $800 lower than I
-would have paid for a 14-inch MacBook Pro with M1 Pro processor.
+something I found out about it after purchasing it that I really
+hated, I could always dispose of it on eBay and I wouldn't be out that
+much money in any case. By the time I made the decision, Apple was
+already starting to offer the M1 Air as part of their refurb
+program. So, I saved myself a few dollars and bought a refurbished M1
+Air with some upgraded specs: 16 GB of RAM and 1 TB of SSD. That's
+basically 2x the RAM and 4x the storage of the base model. And the
+price was $800 lower than I would have paid for a 14-inch MacBook Pro
+with M1 Pro processor.
 
 After I received it, I installed the latest Emacs 28 pretest from
 [emacsformacosx.com](https://emacsformacosx.com/builds). I also
@@ -85,16 +86,17 @@ to Emacs with CIDER. With all that going on, my memory usage is only
 If you want to develop Clojure on it, you can do so with ease. That's
 really a testament to using a high level programming language
 (Clojure) running on an abstract virtual machine (JVM) that totally
-insulates the hardware details. I also haven't gone as far as trying
-Docker or anything virtualized (e.g., VMware), so you might experience
-some level of pain there. That's not something I typically need to do.
+insulates you from the hardware details. I also haven't gone as far as
+trying Docker or anything virtualized (e.g., VMware), so you might
+experience some level of pain there. That's not something I typically
+need to do.
 
 Are there downsides? Yes, two, but they are very minor in my
 opinion. First, the screen size is only 13 inches. I would really like
 a full 16-inch model. If the rumors are true, this might be coming to
 the next generation of MacBook Air later this year, along with M2 or
 M1 Super Extreme Pro Bionic, or whatever Apple's marketing department
-decides to the next generation chip.
+decides to name the next generation chip.
 
 The second downside is that because the Air doesn't have a fan, if you
 run CPU-intensive workloads for a sustained period of time, the
@@ -104,9 +106,10 @@ typically run workloads like that. Mostly, I run event-driven
 workloads where the programs are waiting for keystrokes or network
 packets or whatever. But even when I do, those CPU-intensive workloads
 typically run for less than five minutes and then they're done.  So, I
-haven't noticed any slowdowns whatsoever. But if you're doing
-something like hardcore video editing, you would probably be better
-off with a MacBook Pro with a fan.
+haven't noticed any slowdowns whatsoever from thermal throttling. But
+if you're doing something that hammers the CPU without end like video
+processing, you would probably be better off with a MacBook Pro with a
+fan.
 
 Overall, the experience has been great. Everything from Emacs to Java
 to Clojure has just worked with little to no fiddling other than
