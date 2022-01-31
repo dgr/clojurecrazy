@@ -2,7 +2,7 @@
 layout: post
 title: "Using `reduce` to Implement Other Clojure Functions"
 date: 2022-01-10 15:21:00 -0600
-tags: [clojure.core, reduce]
+tags: clojure.core reduce
 ---
 In
 [yesterday's](/clojurecrazy/2022/01/09/reduce-my-favorite-clojure-function.html)
