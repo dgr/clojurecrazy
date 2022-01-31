@@ -2,6 +2,7 @@
 layout: post
 title: "My Experience with an M1 MacBook Air"
 date: 2022-01-30 18:22:00 -0600
+tags: [m1, hardware, review]
 ---
 
 Just before Christmas last year, I decided to treat myself to a
