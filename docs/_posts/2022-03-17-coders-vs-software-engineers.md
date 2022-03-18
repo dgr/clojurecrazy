@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coders vs. Software Engineers and Computer Scientists"
-date: 2022-03-17 22:00:00 -0600
+date: 2022-03-17 22:00:00 -0500
 tags: "software engineering"
 ---
 
